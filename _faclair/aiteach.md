@@ -16,4 +16,4 @@ Le teacht
 
 ## Focail chosúla
 
-[cam](https://focloir.lgbt/cam/)
+cam

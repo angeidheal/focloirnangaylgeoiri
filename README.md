@@ -1,1 +1,1 @@
-[Faclair nan Gèidheal](https://faclair.lgbt) is a dictionary of Scottish Gaelic (Gàidhlig) and Irish (Gaeilge) LGBTQ+ vocabulary from [An Gèidheal Ùr](https://angeidhealur.scot/).
+[Foclóir na nGaylgeoirí](https://focloir.lgbt) is a dictionary of Irish (Gaeilge) LGBTQ+ vocabulary from [An Gèidheal Ùr](https://angeidhealur.scot/).

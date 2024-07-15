@@ -1,0 +1,33 @@
+---
+
+layout: page
+
+---
+
+<h1>Foclóir na nGaylgeoirí</h1>
+
+<p>'S e seo faclair den bhriathrachas LGDTC+ Gàidhlig a bhios sinn a' cleachdadh air a' Ghèidheal Ùr.</p>
+
+<p>Faodaidh tu <a href="{{ site.brand-link }}mu-ar-deidhinn">fios a chur thugainn</a> ma tha thu eòlach air facal a tha a dhìth.</p>
+
+<p>Sgrìobh facal Gàidhlig no Beurla sa' bhogsa-luirg gus tòiseachadh. (Gabhaidh a' mhòr-chuid a lorg as Gaeilge cuideachd.)</p>
+
+<p>Faodar am faclair air fad a bhrabhsadh <a href="/faclair/gd/">an-seo</a>.</p>
+
+<!-- Html Elements for Search -->
+<div class="form-group" id="search-container">
+  <input class="form-control" type="text" id="search-input" placeholder="Lorg san fhaclair..." style="padding: 10px; font-size: 17px; border: 1px solid grey; float: left; width: 100%; background: #f1f1f1;"><br />  
+  <ul style="padding-top: 30px" id="results-container"></ul>
+</div>
+  
+  <!-- Script pointing to search-script.js -->
+  <script src="/js/faclair-script.js" type="text/javascript"></script>
+  
+  <!-- Configuration -->
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/js/faclair.json'
+  })
+  </script>

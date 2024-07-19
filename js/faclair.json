@@ -2,7 +2,7 @@
 
 ---
 [
-  {% for facal in site.faclair %}
+  {% for facal in site.focloir %}
     {
 
       "title"    : "{{ facal.title | escape }}",

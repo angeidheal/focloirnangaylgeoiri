@@ -1,29 +1,20 @@
 ---
-
 layout: page
-
+permalink: /
 ---
 
-<h1>Foclóir na nGaylgeoirí</h1>
+<p style="text-align: right; padding-top: 28px;"><a href="/" title="Seall an duilleag seo sa Ghàidhlig">&#x1f3f4;&#xe0067;&#xe0062;&#xe0073;&#xe0063;&#xe0074;&#xe007f; Gàidhlig</a> &#x1f1ee;&#x1f1ea; Gaeilge <a href="/gv/">&#x1f1ee;&#x1f1f2; Gaelg</a> <a href="/en/" title="View this page in English">&#x1f3f4;&#xe0067;&#xe0062;&#xe0065;&#xe006e;&#xe0067;&#xe007f; English</a></p>
 
-<p>Tá an suíomh gréasáin á tógáil.</p>
+<h1>Foclóir na nGaygeoirí</h1>
 
-<p>Is féidir é a úsáid i nGaeilge na hAlban <a href="https://faclair.lgbt/">anseo</a>.</p>
+<p>Foclóir de théarmaíocht LADTA+.</p>
 
-<!-- Html Elements for Search -->
-<div class="form-group" id="search-container">
-  <input class="form-control" type="text" id="search-input" placeholder="Lorg san fhaclair..." style="padding: 10px; font-size: 17px; border: 1px solid grey; float: left; width: 100%; background: #f1f1f1;"><br />  
-  <ul style="padding-top: 30px" id="results-container"></ul>
-</div>
-  
-  <!-- Script pointing to search-script.js -->
-  <script src="/js/faclair-script.js" type="text/javascript"></script>
-  
-  <!-- Configuration -->
-  <script>
-  SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '/js/faclair.json'
-  })
-  </script>
+<p>Cliceáil orthu le haghaidh tuilleadh eolais.</p>
+
+<p><a href="https://angeidhealur.scot/mu-ar-deidhinn">Déan teagmháil linn</a> má tá a fhios agat ar focal nó frása atá ar iarraidh.</p>
+
+<div style="border-top: 1px solid #f0f0f0; padding: 8px 0px;"></div>
+
+{% for focol in site.focloir %}
+  <p><a href="{{ site.baseurl }}{{ focol.url }}">{{ focol.title }}</a></p>
+{% endfor %}

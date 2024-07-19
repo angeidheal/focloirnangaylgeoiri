@@ -30,6 +30,6 @@ plugins:
   - jekyll-feed
 
 collections:
-  faclair:
+  focloir:
     output: true
     permalink: /:path/
